@@ -2,6 +2,8 @@
 
 This [Roll20](http://roll20.net/) script allows for the creation of player-controllable "time bombs" on the Combat Tracker in Roll20 games. Each Bomb you add to the Tracker will count down each round to zero, detonating the Bomb and sending an effect dialog to all players and replacing the Bomb token with a graphic representation the detonation.
 
+**Note:** TimeBomb _will not_ count down if using a combat management script like Combat Master or Combat Tracker where you allow the script to advance the Turn Tracker itself. You must use the "Next Turn" button in the Turn Tracker. To use TimeBomb with Combat Tracker, for instance, turnoff Combat Tracker's Announce Turns or simply disallow players from using the "Done with Round" button.
+
 ## Set Up
 
 TimeBomb requires two tokens: A "Bomb" token and a "Result" token. The Bomb token provides the number of rounds to start the countdown and the detonation chat effects. The Result token is a graphic representation of the detonation effect. Once you have set up your Bomb and Result tokens (see below), select both of them and use the `!bomb create` command.
