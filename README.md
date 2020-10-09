@@ -24,7 +24,7 @@ By default, the Result token will be placed below player tokens on the map layer
 
 ## Starting the Countdown
 
-The Bomb you created will sit quietly until you add it to the Turn Tracker. If the Tracker is not open, TimeBomb will open it for you. To add a Bomb to the Tracker, select the Bomb token and use the `!bomb add` command.
+The Bomb you created will sit quietly until you add it to the Turn Tracker. If the Tracker is not open, TimeBomb will open it for you. To add a Bomb to the Tracker, select the Bomb token and use the `!bomb add` command. **Do not** use any other method of adding tokens to the Tracker.
 
 You can add as many Bombs to the Turn Tracker as you wish, and each will count down as their turn comes up.
 
