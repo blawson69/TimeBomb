@@ -1,6 +1,6 @@
 # TimeBomb
 
-This [Roll20](http://roll20.net/) script allows for the creation of "time bombs" in Roll20 games. You can grant players control for moving the Bomb on the map. When you add a Bomb to the Combat Tracker it will count down each round to zero. This detonates the Bomb, sending an effect dialog to all players and replacing the Bomb token with a graphic representation of that detonation.
+This [Roll20](http://roll20.net/) script allows for the creation of "time bombs" in Roll20 games. You can grant players control of the Bomb for moving it on the map. When you add a Bomb to the Combat Tracker it will count down each round to zero. This detonates the Bomb, sending an effect dialog to all players and replacing the Bomb token with a graphic representation of that detonation.
 
 **Note:** TimeBomb _will not_ count down if using a combat management script like Combat Master or Combat Tracker where you allow the script to advance the Turn Tracker itself. You must use the "Next Turn" button in the Turn Tracker. To use TimeBomb with Combat Tracker, for instance, turnoff Combat Tracker's Announce Turns or disallow players from using the "Done with Round" button.
 
