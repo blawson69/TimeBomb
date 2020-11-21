@@ -5,9 +5,6 @@ Add a "time bomb" to the Combat Tracker in Roll20
 On Github:	https://github.com/blawson69
 Contact me: https://app.roll20.net/users/1781274/ben-l
 
-TODO:
-    make result token follow bomb token
-
 Like this script? Become a patron:
     https://www.patreon.com/benscripts
 */
